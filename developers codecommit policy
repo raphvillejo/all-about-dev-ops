@@ -1,0 +1,21 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"codecommit:GetBranch",
+				"codecommit:GetCommit",
+				"codecommit:GetRepository",
+				"codecommit:CreateBranch",
+				"codecommit:CreateCommit",
+				"codecommit:CreatePullRequest",
+				"codecommit:GitPush",
+				"codecommit:GitPull",
+				"codecommit:MergePullRequestByFastForward",
+				"codecommit:PutFile"
+			],
+			"Resource": "arn:aws:codecommit:us-east-2:927910113653:Fulfillment-App"
+		}
+	]
+}
