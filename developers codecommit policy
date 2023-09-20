@@ -15,7 +15,7 @@
 				"codecommit:MergePullRequestByFastForward",
 				"codecommit:PutFile"
 			],
-			"Resource": "arn:aws:codecommit:us-east-2:927910113653:Fulfillment-App"
+			"Resource": "arn:aws:codecommit:REGION:ACCOUNT_ID:REPOSITORY_NAME"
 		}
 	]
 }
